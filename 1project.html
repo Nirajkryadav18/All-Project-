@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>University Registration form</h1>
+    <p>Please fill out the form</p>
+    <hr>
+
+    <form>
+        <h2>Pesonal Details</h2>
+
+        <label for="name">First Name:</label>
+        <input type="text"name="name" id="name" placeholder="e.g:Arjun">
+
+        <br><br>
+
+        <label for="surname">Last Name:</label>
+        <input type="text"surname="name" id="surname" placeholder="e.g:yadav">
+        <br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date"name="dob" id="dob">
+        <br><br>
+          
+        <h3>Gender</h3>
+        
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <br><br>
+        <label for="Female">female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br><br>
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <h3>Upload Your Photo</h3>
+
+        <input type="file" name="file">
+
+        <hr>
+
+        <h2>Contect Information</h2>
+
+        <label for="email">Email Adress</label>
+        <input type="email" name="email" id="email">
+
+        <br><br>
+
+        <label for="phonr number">phone number</label>
+        <input type="tel" phone number="phone number" id="phone number">
+
+        <br><br>
+        <label for="Address">Milling Address:</label>
+        <br>
+        <textarea name="Address" id="Address" rows="7" cols="25"></textarea>
+
+        <hr>
+
+        <h2>Academic Information</h2>
+
+        <label for="Course">Sellect Your Course:</label>
+        <select name="Course" id="Course">
+            <option value="CSE">CSE</option>
+            <option value="ME">ME</option>
+            <option value="AI&ML">AI&ML</option>
+        </select>
+
+    <br>
+
+    <h3>Extracurricular Activites</h3>
+
+    <label for="Sports">Sports</label>
+    <input type="checkbox" name="interest" id="sports" value="Sports">
+    <br><br>
+
+    <label for="Music">Music</label>
+    <input type="checkbox" name="interest" id="Music" value="Music">
+    <br><br>
+
+    <label for="Technology">Technology</label>
+    <input type="checkbox" name="interest" id="Technology" value="Technology">
+    <br><br>
+
+    <label for="Voluntering">Voluntering</label>
+    <input type="checkbox" name="interest" id="Voluntering" value="Voluntering" >
+    <br><br>
+
+    <hr>
+
+    <h2>Create  Your account</h2>
+
+    <label for="pass">Create Password</label>
+    <input type="password" name="password" id="pass">
+    <br><br>
+
+    <label for="security">security answer</label>
+    <input type="text" name="security" id="security">
+   
+    <hr>
+    
+    <button type="submit"> registation</button>
+    <button type="submit">Clear form</button>
+
+    </form>
+</body>
+</html>
